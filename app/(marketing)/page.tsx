@@ -1,8 +1,9 @@
 import React from 'react'
+import { Home } from '@/components/home'
 
 function MarketingPage() {
   return (
-    <div>MarketingPage</div>
+    <Home/>
   )
 }
 
