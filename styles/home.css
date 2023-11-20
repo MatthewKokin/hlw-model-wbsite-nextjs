@@ -1,5 +1,40 @@
 .mission{
-    font-size: 30px;
+    font-size: 20px;
     line-height: normal;
     font-weight: 800;
+    /* border: 1px solid red; */
+    margin: 20px 0px 20px 20px;
+    position: relative;
+    z-index: 1;
+    background-color: none;
 }
+
+.img{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    z-index: 1;
+    width: 100%;
+    background-color: none;
+}
+
+.mission {
+    font-size: 20px;
+  }
+  @media (min-width: 600px) {
+    .mission {
+      font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .mission {
+      font-size: 28px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .mission {
+      font-size: 32px;
+    }
+  }  
