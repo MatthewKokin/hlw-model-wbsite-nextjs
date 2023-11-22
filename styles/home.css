@@ -14,32 +14,32 @@ html body {
 }
 
 .home-container{
-  /* border: 1px solid green; */
+  /* border: 1px solid red; */
   height: 100%;
-  min-height: 550px;
+  min-height: 700px;
   min-width: 400px;
   height: auto;
 }
 
 .container-mission-image{
   /* border: 1px solid green; */
-  height: 420px;
+  max-height: 650px;
 }
 .mission{
     font-size: 28px;
     line-height: normal;
     font-weight: 800;
-    /* border: 1px solid red; */
     margin: 20px;
     background-color: none;
-}
-
-.container-img {
+  }
+  
+  .container-img {
+  /* border: 1px solid red; */
   overflow: hidden;
   position: relative;
   background-color: none;
-  max-width: 440px;
-  min-width: 440px; 
+  max-width: 200px;
+  min-width: 200px; 
   margin: auto;
 }
 
@@ -81,13 +81,13 @@ html body {
     justify-content: center;
     align-items: center;
     /* border: 1px solid blue; */
-    min-height: 425px;
+    min-height: 400px;
   }
   .container-img {
     position: absolute;
     /* border: 1px solid red; */
-    top: 50px;
-    left: 250px;
+    top: 10px;
+    left: 400px;
   }
   .container-mission-image{
     display: flex;
@@ -95,7 +95,7 @@ html body {
     align-items:flex-start;
     /* border: 1px solid red; */
     width: 638px;
-    height: 293px;
+    height: 340px;
   }
 
   .container-button{
@@ -103,7 +103,7 @@ html body {
     margin-top: 0px;
     /* border: 1px solid red; */
     top: 175px;
-    right: 113px;
+    right: 80px;
   }
 
   .mission{

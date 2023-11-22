@@ -19,8 +19,8 @@ function About() {
         <div className='card'>
         <Card>
             <CardHeader>
-                <CardTitle>Matthew K</CardTitle>
-                <CardDescription>CFO</CardDescription>
+                <CardTitle>Will R</CardTitle>
+                <CardDescription>CSO</CardDescription>
             </CardHeader>
             <CardContent>
                 <Image
@@ -40,8 +40,8 @@ function About() {
         <div className='card'>
         <Card>
             <CardHeader>
-                <CardTitle>Matthew K</CardTitle>
-                <CardDescription>CFO</CardDescription>
+                <CardTitle>Will R</CardTitle>
+                <CardDescription>CSO</CardDescription>
             </CardHeader>
             <CardContent>
                 <Image
@@ -61,8 +61,8 @@ function About() {
         <div className='card'>
         <Card>
             <CardHeader>
-                <CardTitle>Matthew K</CardTitle>
-                <CardDescription>CFO</CardDescription>
+                <CardTitle>Will R</CardTitle>
+                <CardDescription>CSO</CardDescription>
             </CardHeader>
             <CardContent>
                 <Image
@@ -82,8 +82,8 @@ function About() {
         <div className='card'>
         <Card>
             <CardHeader>
-                <CardTitle>Matthew K</CardTitle>
-                <CardDescription>CFO</CardDescription>
+                <CardTitle>Will R</CardTitle>
+                <CardDescription>CSO</CardDescription>
             </CardHeader>
             <CardContent>
                 <Image
@@ -103,8 +103,8 @@ function About() {
         <div className='card'>
         <Card>
             <CardHeader>
-                <CardTitle>Matthew K</CardTitle>
-                <CardDescription>CFO</CardDescription>
+                <CardTitle>Will R</CardTitle>
+                <CardDescription>CSO</CardDescription>
             </CardHeader>
             <CardContent>
                 <Image

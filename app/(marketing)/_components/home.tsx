@@ -12,7 +12,7 @@ export function Home() {
             <h1>management</h1>
           <div className='container-img'>
           <Image
-              src="/infographic.svg"
+              src="/infographic3.png"
               alt="Logo"
               height={440}
               width={440}
@@ -20,11 +20,10 @@ export function Home() {
               />
           </div>
           <div className='container-button'>
-            <button>See Economic Model</button>
+            <button>See Economics Model</button>
           </div>
         </div>
-        
-        </div>
+      </div>
     </div>
   )
 }
