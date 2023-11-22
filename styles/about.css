@@ -1,4 +1,27 @@
 .cards{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+.about-container{
+    background-color: white;
+    border: 1px solid red;
+    min-height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.about-container h1{
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 800;
+    display: block;
+    margin: 20px auto 20px auto;
+
 }

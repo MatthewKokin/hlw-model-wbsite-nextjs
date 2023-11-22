@@ -58,6 +58,69 @@ function About() {
             </CardFooter>
         </Card>
         </div>
+        <div className='card'>
+        <Card>
+            <CardHeader>
+                <CardTitle>Matthew K</CardTitle>
+                <CardDescription>CFO</CardDescription>
+            </CardHeader>
+            <CardContent>
+                <Image
+                src="/icon.jpeg"
+                alt="Logo"
+                height={100}
+                width={100}
+                className=""
+                />
+                <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+                <p>Card Footer</p>
+            </CardFooter>
+        </Card>
+        </div>
+        <div className='card'>
+        <Card>
+            <CardHeader>
+                <CardTitle>Matthew K</CardTitle>
+                <CardDescription>CFO</CardDescription>
+            </CardHeader>
+            <CardContent>
+                <Image
+                src="/icon.jpeg"
+                alt="Logo"
+                height={100}
+                width={100}
+                className=""
+                />
+                <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+                <p>Card Footer</p>
+            </CardFooter>
+        </Card>
+        </div>
+        <div className='card'>
+        <Card>
+            <CardHeader>
+                <CardTitle>Matthew K</CardTitle>
+                <CardDescription>CFO</CardDescription>
+            </CardHeader>
+            <CardContent>
+                <Image
+                src="/icon.jpeg"
+                alt="Logo"
+                height={100}
+                width={100}
+                className=""
+                />
+                <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+                <p>Card Footer</p>
+            </CardFooter>
+        </Card>
+        </div>
         </div>
         
     </div>
