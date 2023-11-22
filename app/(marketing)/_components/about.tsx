@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../../styles/about.css";
 import Image from 'next/image'
 import {
     Card,
@@ -12,8 +13,10 @@ import {
 
 function About() {
   return (
-    <div>
-        <div>
+    <div className='about-container'>
+        <h1>Who we are?</h1>
+        <div className='cards'>
+        <div className='card'>
         <Card>
             <CardHeader>
                 <CardTitle>Matthew K</CardTitle>
@@ -23,8 +26,8 @@ function About() {
                 <Image
                 src="/icon.jpeg"
                 alt="Logo"
-                height={440}
-                width={440}
+                height={100}
+                width={100}
                 className=""
                 />
                 <p>Card Content</p>
@@ -34,6 +37,29 @@ function About() {
             </CardFooter>
         </Card>
         </div>
+        <div className='card'>
+        <Card>
+            <CardHeader>
+                <CardTitle>Matthew K</CardTitle>
+                <CardDescription>CFO</CardDescription>
+            </CardHeader>
+            <CardContent>
+                <Image
+                src="/icon.jpeg"
+                alt="Logo"
+                height={100}
+                width={100}
+                className=""
+                />
+                <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+                <p>Card Footer</p>
+            </CardFooter>
+        </Card>
+        </div>
+        </div>
+        
     </div>
   )
 }
