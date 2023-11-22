@@ -1,9 +1,10 @@
 import React from 'react'
-import "../styles/home.css";
+import "../../../styles/home.css";
 import Image from 'next/image';
 export function Home() {
   return (
     <div>
+      <div className='container-mission-image'>
         <div className='mission'>
             <h1>Nuclear Waste Management</h1>
             <h1>Starts Here: UK path to a</h1>
@@ -18,9 +19,9 @@ export function Home() {
             width={1000}
             className="m-0 img"
             />
-        <div>
-        <button>See Economic Model</button>
-
+      </div>
+        <div className='container-button'>
+          <button>See Economic Model</button>
         </div>
     </div>
   )
