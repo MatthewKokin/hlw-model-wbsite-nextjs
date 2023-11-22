@@ -14,7 +14,7 @@ html body {
 }
 
 .home-container{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100%;
   min-height: 550px;
   min-width: 400px;
@@ -75,26 +75,41 @@ html body {
 }
 
 @media (min-width: 768px) {
+  .home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    min-height: 425px;
+  }
   .container-img {
     position: absolute;
     /* border: 1px solid red; */
-    top: 200px;
-    left: 350px;
+    top: 50px;
+    left: 250px;
   }
   .container-mission-image{
-    /* border: 1px solid green; */
     display: flex;
     justify-content: flex-start;
     align-items:flex-start;
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 500px;
-    height: 200px;
+    /* border: 1px solid red; */
+    width: 638px;
+    height: 293px;
+  }
+
+  .container-button{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 175px;
+    right: 113px;
   }
 
   .mission{
     margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0;
     position: relative;
+    /* border: 1px solid red; */
   }
 
   .container-button button{
