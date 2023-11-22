@@ -15,8 +15,8 @@ export function Home() {
         <Image
             src="/infographic.svg"
             alt="Logo"
-            height={1000}
-            width={1000}
+            height={600}
+            width={600}
             className="m-0 img"
             />
       </div>
