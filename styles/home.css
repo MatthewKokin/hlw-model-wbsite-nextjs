@@ -13,9 +13,12 @@ html body {
   overflow-x: hidden;
 }
 
-body{
+.home-container{
   border: 1px solid red;
-  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  min-width: 400px;
+  height: auto;
 }
 
 .container-mission-image{
@@ -27,24 +30,29 @@ body{
     line-height: normal;
     font-weight: 800;
     /* border: 1px solid red; */
-    margin: 20px 0px 20px 20px;
-    position: relative;
-    z-index: 1;
+    margin: 20px;
     background-color: none;
 }
 
+.container-img {
+  overflow: hidden;
+  position: relative;
+  background-color: none;
+  max-width: 440px;
+  min-width: 440px; 
+  margin: auto;
+}
+
+
 .img{
-    position: absolute;
-    top: 235px;
-    left: 40px;
-    z-index: 1;
+    overflow:hidden;
+    position:relative;
     background-color: none;
 }
 
 .container-button{
   display: block;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .container-button button{
@@ -64,6 +72,38 @@ body{
   box-shadow: 0px 0px 10px #89DB7B;
   border: 4px solid #89DB7B;
   background-color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .container-img {
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 200px;
+    left: 350px;
+  }
+  .container-mission-image{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+  }
+
+  .mission{
+    margin-right: 0px;
+    position: relative;
+  }
+
+  .container-button button{
+    margin-left: 125px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    height: 75px;
+  }
 }
 
 /* .mission {
