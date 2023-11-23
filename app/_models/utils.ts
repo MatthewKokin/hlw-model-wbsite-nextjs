@@ -51,9 +51,13 @@ export function setOperationalDays(plants: PowerPlant[], days: number): [number,
     for (const plant of plants) {
         const [wasteVolumeThisYearForPlant, wasteVolumeTotalForPlant, uraniumUsedThisYear] = plant.isOperatingOrBuilding(days);
     
-        // Check if wasteVolumeThisYearForPlant is undefined and initialize it as an empty array if so
-        const wasteVolumesThisYearForPlant = wasteVolumeThisYearForPlant || [];
-    
+        let wasteVolumesThisYearForPlant = [];
+
+        // Assuming wasteVolumeThisYearForPlant is a single value
+        if (wasteVolumeThisYearForPlant !== undefined) {
+            wasteVolumesThisYearForPlant.push(wasteVolumeThisYearForPlant);
+        }
+
         wasteVolumesThisYearForPlant.push(wasteVolumeThisYearForPlant);
         wasteVolumeAllTimeTotal += wasteVolumeTotalForPlant;
         totalUraniumUsedThisYear += uraniumUsedThisYear;
